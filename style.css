@@ -207,3 +207,42 @@ section{
 .btn-color-2:hover{
     border: rgb(255,255,255) 0.1rem solid;
 }
+
+/* ABOUT SECTION */
+
+#about{
+    position: relative;
+}
+.section-container{
+    gap:4rem;
+    height: 70%;
+}
+
+.section-pic-container img{
+    height: 400px;
+    width:400px;
+}
+.about-details-container{
+    justify-content: center;
+    flex-direction: column;
+}
+.about-container{
+    gap:2rem;
+    margin:2rem 0;
+}
+.about-pic{
+    border-radius: 2rem;
+}
+.arrow{
+    position: absolute;
+    bottom:2rem ;
+    right:-5rem;
+}
+.details-container{
+    padding: 1.5rem;
+    flex:1;
+    background: whtie;
+    border-radius: 2rem;
+    border:rgb(53,53,53) .1rem solid;
+    text-align: center;
+}
