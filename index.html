@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,11 +9,12 @@
     <link rel="stylesheet" href="mediaqueries.css">
     <link rel="stylesheet" href="utility.css">
 </head>
+
 <body>
-    <nav id="main-nav">
+    <nav id="desktop-nav">
         <div class="logo">Sidhartha Maturi</div>
         <div>
-            <ul class="nav-links">
+            <ul class="nav-links flex">
                 <li><a href="#about">About Me</a></li>
                 <li><a href="#experience">Experience</a></li>
                 <li><a href="#projects">Projects</a></li>
@@ -20,7 +22,25 @@
             </ul>
         </div>
     </nav>
-
+    <nav id="hamburger-nav">
+        <div class="logo">Sidhartha Maturi</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="Menu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-link">
+                <ul>
+                    <li><a href="#about" onclick="Menu()">About Me</a></li>
+                    <li><a href="#experience" onclick="Menu()">Experience</a></li>
+                    <li><a href="#projects" onclick="Menu()">Projects</a></li>
+                    <li><a href="#contact" onclick="Menu()">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
     <script src="script.js"></script>
 </body>
+
 </html>
