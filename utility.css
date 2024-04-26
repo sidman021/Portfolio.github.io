@@ -13,3 +13,6 @@
 .space-between{
     justify-content: space-between;
 }
+.coloumn{
+    flex-direction: column;
+}

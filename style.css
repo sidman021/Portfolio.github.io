@@ -126,7 +126,9 @@ section{
 /* PROFILE SECTION */
 
 #profile{
+    position: relative;
     display: flex;
+    align-items: center;
     justify-content: center;
     gap:5rem;
     height: 80vh;
@@ -243,6 +245,51 @@ section{
     flex:1;
     background: whtie;
     border-radius: 2rem;
-    border:rgb(53,53,53) .1rem solid;
+    border:rgb(163,163,163) .1rem solid;
     text-align: center;
+}
+
+/* EXPERIENCE SECTION */
+#experience{
+    position: relative;
+}
+.experience-details-container{
+    gap:5rem;
+    display: flex;
+}
+.about-containers{
+    margin: 4rem 0;
+    display: flex;
+    gap: 5rem;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.experience-sub-title{
+    color:rgb(85,85,85);
+    font-weight: 600;
+    font-size: 1.75rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+.article-container{
+    gap:2.5rem;
+    display: flex;
+    flex-direction: row;
+    text-align: initial;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+article{
+    display: flex;
+    width: 12rem;
+    justify-content: space-around;
+    align-items: center;
+    gap:0.5rem;
+    text-align: initial;
+}
+.article .icon{
+    cursor: default;
 }
