@@ -352,3 +352,12 @@ article{
     width: 2.4rem;
     height: 2.4rem;
 }
+
+/* Footer */
+footer{
+    height: 26vh;
+    margin:0 1rem;
+}
+footer p{
+    text-align: center;
+}
