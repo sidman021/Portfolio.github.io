@@ -299,3 +299,23 @@ article{
 #projects{
     position: relative;
 }
+.color-container{
+    border-color: rgb(163,163,163);
+    background: rgb(250,250,250);
+    
+}
+.project-img{
+    width:90%
+}
+.pro-title{
+    font-size: 1.5rem;
+    margin: 1rem 0;
+}
+.project-details-container{
+    margin:1rem 0;
+    gap:2.5rem;
+    display: flex;
+}
+.proj-c{
+    gap:0rem;
+}
